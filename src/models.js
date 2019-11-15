@@ -1,5 +1,4 @@
 const database = require('./database.js');
-const _ = require('lodash');
 
 const models = {
     test: {
