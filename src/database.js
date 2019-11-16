@@ -13,11 +13,14 @@ const sequelize = new Sequelize(
 ); 
 
 const database = {
-    homepage: sequelize.define('homepage', {
-        name: Sequelize.STRING,
-        description: Sequelize.STRING,
-    }),
-    sequelize
+    homepage: sequelize.define(
+        'homepage', 
+        {
+            name: Sequelize.STRING,
+            description: Sequelize.STRING,
+        }
+    ),
+    direct: sequelize
 }
 
 sequelize.sync().then(function() {
