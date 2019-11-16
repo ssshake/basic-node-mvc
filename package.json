@@ -18,7 +18,6 @@
     "express": "^4.16.4",
     "handlebars": "^4.1.1",
     "handlebars-helpers": "^0.10.0",
-    "mysql2": "^1.6.4",
     "sequelize": "^4.42.0"
   },
   "devDependencies": {
