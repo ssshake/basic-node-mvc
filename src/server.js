@@ -2,8 +2,8 @@ const express = require('express')
 const app = express();
 const listenPort = process.env.PORT || 8080
 
-const controllers = require('./src/controllers.js');
-const middleware = require('./src/middleware.js');
+const controllers = require('./controllers.js');
+const middleware = require('./middleware.js');
 const routes = require('./json/routes.json');
 
 app.use(middleware.headers);

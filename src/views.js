@@ -1,7 +1,7 @@
 const handlebars = require('handlebars');
 const handlebarsHelpers = require('handlebars-helpers');
 
-const Homepage = require('./pages/homepage/template.js');
+const Homepage = require('./views/homepage/template.js');
 
 const views = {
 

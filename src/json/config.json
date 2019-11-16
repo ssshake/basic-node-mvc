@@ -1,8 +1,8 @@
 {
     "database": {
         "host": "localhost",
-        "name": "test",
-        "user": "test",
-        "password": "test"
-    },
+        "name": "basicmvc",
+        "user": "root",
+        "password": "password"
+    }
 }
