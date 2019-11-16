@@ -2,10 +2,10 @@
   "name": "basic-node-mvc",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/app.js",
+  "main": "./src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -e 'js,hbs,json' ./src/app.js"
+    "dev": "nodemon -e 'js,hbs,json' ./src/server.js"
   },
   "repository": {
     "type": "git",
