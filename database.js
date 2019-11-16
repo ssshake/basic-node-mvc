@@ -21,7 +21,7 @@ const database = {
 }
 
 sequelize.sync().then(function() {
-    console.log("DB SYNCED")
+    console.log("Database Synced")
 })
 
 module.exports = database;

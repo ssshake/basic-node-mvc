@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -e 'js,hbs,json' ./server.js",
+    "dev": "nodemon -e 'js,hbs,json' ./server.js"
   },
   "repository": {
     "type": "git",
@@ -13,9 +13,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "",
   "dependencies": {
     "express": "^4.16.4",

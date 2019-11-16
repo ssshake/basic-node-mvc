@@ -11,8 +11,6 @@ app.use(
     express.static('public')
 );
 
-app.get('/anothertest'  , controller.anotherTestPage);
-app.get('/test'         , controller.testPage);
 app.get('/'             , controller.indexPage);
 
 app.listen(

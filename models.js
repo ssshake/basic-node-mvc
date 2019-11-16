@@ -3,7 +3,8 @@ const database = require('./database.js');
 const models = {
     test: {
         read: () => {
-            database.test.findAll()
+            return [1,2,3,4,5,6];
+            return database.test.findAll()
         },
         write: (name, description) => {
             return database.test.upsert({
