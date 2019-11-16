@@ -20,7 +20,7 @@ const server = {
             app[verb](path, controllers[controller]);
         })
     },
-    listener(){
+    listen(){
         app.listen(
             listenPort, 
             () => console.log(`listening on port ${listenPort}!`)
@@ -28,6 +28,4 @@ const server = {
     }
 }
 
-server.middleware();
-server.routes();
-server.listener();
+module.exports = server;
