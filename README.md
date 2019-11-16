@@ -4,7 +4,7 @@ A barebones MVC using node, handlebars and sequelize
 
 It's so simple it literaly could have been written by anyone.
 
-I do a lot of weekend projects. (http://richardbettridge.com)[http://richardbettridge.com]
+I do a lot of weekend projects. http://richardbettridge.com
 
 I don't want to think about this stuff every time I start a new project. 
 
