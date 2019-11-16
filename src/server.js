@@ -7,11 +7,11 @@ const middleware = require('./src/middleware.js');
 
 app.use(middleware.headers);
 app.use(
-    (req, res, next) => { next() }, 
+    (req, res, next) => next(), 
     express.static('public')
 );
 
-app.get('/'             , controller.indexPage);
+app.get('/', controller.indexPage);
 
 app.listen(
     listenPort, 
