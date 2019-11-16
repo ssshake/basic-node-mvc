@@ -4,7 +4,7 @@ registerHandlebarsHelpers();
 const Homepage = require('./views/homepage/template.js');
 
 const views = {
-    homepage: new Homepage(),
+    homepage: new Homepage('./server.js'),
 }
 
 module.exports = views;
