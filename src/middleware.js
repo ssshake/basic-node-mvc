@@ -1,5 +1,5 @@
 const middleware = {
-    headers: (req, res, next) => {
+    headers(req, res, next) {
         //
         next();
     },
