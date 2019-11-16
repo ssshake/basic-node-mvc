@@ -7,18 +7,18 @@ const middleware = require('./middleware.js');
 const controllers = require('./controllers.js');
 
 const server = {
+    routes(){
+        routes.map((route) => {
+            const { verb, path, controller } = route;
+            app[verb](path, controllers[controller]);
+        })
+    },    
     middleware(){
         app.use(middleware.headers);
         app.use(
             (req, res, next) => next(), 
             express.static('public')
         );
-    },
-    routes(){
-        routes.map((route) => {
-            const { verb, path, controller } = route;
-            app[verb](path, controllers[controller]);
-        })
     },
     listen(){
         app.listen(
