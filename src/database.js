@@ -13,7 +13,7 @@ const sequelize = new Sequelize(
 ); 
 
 const database = {
-    test: sequelize.define('test', {
+    homepage: sequelize.define('homepage', {
         name: Sequelize.STRING,
         description: Sequelize.STRING,
     }),

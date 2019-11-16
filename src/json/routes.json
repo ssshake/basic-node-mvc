@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Homepage",
+        "path": "/",
+        "verb": "get",
+        "controller": "homepage"
+    }
+]

@@ -1,10 +1,12 @@
 const handlebars = require('handlebars');
 const handlebarsHelpers = require('handlebars-helpers');
 
-const Index = require('./pages/index/template.js');
+const Homepage = require('./pages/homepage/template.js');
 
 const views = {
-    index: new Index(),
+
+    homepage: new Homepage(),
+
 }
 
 const registerHandlebarsHelpers = () => {

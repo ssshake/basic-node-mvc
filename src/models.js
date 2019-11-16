@@ -1,18 +1,20 @@
 const database = require('./database.js');
 
 const models = {
-    test: {
+
+    homepage: {
         read: () => {
             return [1,2,3,4,5,6];
-            return database.test.findAll()
+            return database.homepage.findAll()
         },
         write: (name, description) => {
-            return database.test.upsert({
+            return database.homepage.upsert({
                 name, description
             })
             
         },
     }
+    
 }
 
 module.exports = models;
