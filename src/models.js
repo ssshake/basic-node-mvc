@@ -4,7 +4,10 @@ const models = {
 
     homepage: {
         read() {
-            return [1,2,3,4,5,6];
+            return {
+                numbers: [1,2,3,4,5,6],
+                text: "Yes this works"
+            };
             return database.homepage.findAll()
         },
         write(name, description) {
