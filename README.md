@@ -17,3 +17,5 @@ I don't want to think about this stuff every time I start a new project.
 I don't want to untangle a mess every time I skip this step in favor of spiking on something.
 
 I don't want to spend much time doing set up when I just want to try an idea out.
+
+I don't even remember writing any of this. That's great!
