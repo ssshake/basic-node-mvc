@@ -15,7 +15,7 @@
   "license": "ISC",
   "homepage": "",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "handlebars": "^4.1.1",
     "handlebars-helpers": "^0.10.0",
     "sequelize": "^4.42.0"
